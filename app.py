@@ -3,6 +3,7 @@ from flask import Flask, jsonify
 app = Flask(__name__)
 
 # This is test comment
+# This is test comment 2
 
 @app.route('/')
 def home():
